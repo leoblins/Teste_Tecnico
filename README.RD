@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte de um teste técnico para estágio em D
  Funcionalidades
 
 1. Login de Usuário:
-     Login com usuário `admin` e senha `1234`.
+Login com usuário "admin" e senha `1234`ou login com usuario "Geraldo" e senha "abc"
      Sessões para manter o usuário autenticado.
    
 2. Cadastro de Produtos:
