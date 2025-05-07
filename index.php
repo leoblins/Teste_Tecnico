@@ -6,7 +6,7 @@ $erro = '';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usuario = $_POST['usuario'];
-    $senha = hash('sha256', $_POST['senha']); // Mesma criptografia usada no banco
+    $senha = hash('sha256', $_POST['senha']); // Criptografia (a mesma que utilizei no php admin)
 
     $sql = "SELECT * FROM usuarios WHERE usuario = ? AND senha = ?";
     $stmt = $conn->prepare($sql);

@@ -10,5 +10,5 @@ if ($conn->connect_error) {
     die("❌ Erro de conexão com o banco: " . $conn->connect_error);
 }
 
-// Conexão bem-sucedida, pode usar $conn nas queries
+
 ?>

@@ -19,7 +19,7 @@ if (isset($_GET['id'])) {
 
     if ($res->num_rows === 1) {
         $produto = $res->fetch_assoc();
-        extract($produto); // preenche as variáveis: $codigo, $nome, etc.
+        extract($produto); // preenche tudo
     } else {
         die("Produto não encontrado.");
     }
@@ -28,7 +28,7 @@ if (isset($_GET['id'])) {
 
 //{  Debug temporario porque estava com erro e não sabia aonde
 //if (!$conn) {
-//    die("❌ Erro na conexão com o banco.");
+//    die(" Erro na conexão com o banco.");
 //}
 $erro = '';
 $sucesso = '';
@@ -99,7 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             return false;
         }
 
-        return true; // Se tudo estiver certo, o formulário será enviado
+        return true; 
     }
 </script>
 

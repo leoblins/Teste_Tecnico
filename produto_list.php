@@ -9,12 +9,12 @@ require_once 'db.php';
 
 $msg = $_GET['msg'] ?? '';
 
-// Filtros
+// Filtros (extra)
 $nome = $_GET['nome'] ?? '';
 $status = $_GET['status'] ?? '';
 
-// Paginação
-$por_pagina = 10; // Número de produtos por página
+// Paginação (extra)
+$por_pagina = 10; 
 $pagina = isset($_GET['pagina']) ? max(1, intval($_GET['pagina'])) : 1;
 $offset = ($pagina - 1) * $por_pagina;
 
@@ -71,7 +71,7 @@ $total_paginas = ceil($total_registros / $por_pagina);
         <div class="alert alert-info"><?php echo htmlspecialchars($msg); ?></div>
     <?php endif; ?>
 
-    <!-- Filtro -->
+    <!-- Parte do filtro -->
     <form method="get" class="row g-3 mb-4">
         <div class="col-md-4">
             <input type="text" name="nome" class="form-control" placeholder="Buscar por nome"
@@ -90,7 +90,7 @@ $total_paginas = ceil($total_registros / $por_pagina);
         </div>
     </form>
 
-    <!-- Tabela -->
+    <!-- Tabelas -->
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
         <tr>
