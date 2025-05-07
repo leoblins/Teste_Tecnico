@@ -42,3 +42,8 @@ Banco de Dados
 
 O banco de dados utilizado é o MySQL. O arquivo `estrutura.sql` contém a criação do banco e das tabelas necessárias.
 
+ Demonstração do Projeto
+
+Veja o vídeo abaixo para ver o sistema em funcionamento:
+
+[![Vídeo de Demonstração](https://img.youtube.com/vi/3IftRKlR4wI/maxresdefault.jpg)](https://www.youtube.com/watch?v=3IftRKlR4wI)
