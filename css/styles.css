@@ -1,5 +1,3 @@
-
-
 .container {
     display: flex;
     flex-direction: column; 
@@ -8,7 +6,7 @@
     height: 50vh; 
     width: 50%;
     text-align: center; 
-    background-color:#52073f;
+    background-color:#F4F4F4;
     border: 3px solid black;
     border-radius: 20px ; 
     
