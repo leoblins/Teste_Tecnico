@@ -46,7 +46,7 @@ O banco de dados utilizado é o MySQL. O arquivo `estrutura.sql` contém a cria�
 
 Veja o vídeo abaixo para ver o sistema em funcionamento:
 
-https://www.youtube.com/watch?v=3IftRKlR4wI
+https://www.youtube.com/watch?v=MJJZ0W8IqeQ
 
 Referências
 
