@@ -16,10 +16,13 @@ if (!isset($_SESSION['usuario'])) {
 </head>
 <body>
     <div class="container ">
+       <!-- <div class="container2">  -->
         <h3>Bem-vindo, <?php echo $_SESSION['usuario']; ?>!</h3>
         <p><a href="produto_form.php" class="btn btn-success">Cadastrar Produto</a></p>
         <p><a href="produto_list.php" class="btn btn-primary">Listar Produtos</a></p>
         <p><a href="logout.php" class="btn btn-danger">Sair</a></p>
+        
+       <!-- </div> -->
     </div>
 </body>
 </html>

@@ -14,6 +14,10 @@ CREATE TABLE IF NOT EXISTS usuarios (
 INSERT INTO usuarios (usuario, senha)
 VALUES ('admin', SHA2('1234', 256));
 
+-- Inserir usuário Geraldo (geraldo / abc)
+INSERT INTO Geraldo (usuario, senha)
+VALUES ('admin', SHA2('abc', 256));
+
 -- Tabela de produtos
 CREATE TABLE IF NOT EXISTS produtos (
     id INT AUTO_INCREMENT PRIMARY KEY,
