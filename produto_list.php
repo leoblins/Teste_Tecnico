@@ -14,7 +14,7 @@ $nome = $_GET['nome'] ?? '';
 $status = $_GET['status'] ?? '';
 
 // Paginação (extra)
-$por_pagina = 10; 
+$por_pagina = 3; 
 $pagina = isset($_GET['pagina']) ? max(1, intval($_GET['pagina'])) : 1;
 $offset = ($pagina - 1) * $por_pagina;
 
