@@ -12,8 +12,8 @@ Este projeto foi desenvolvido como parte de um teste técnico para estágio em D
  Funcionalidades
 
 1. Login de Usuário:
-Login com usuário "admin" e senha `1234`ou login com usuario "Geraldo" e senha "abc"
-     Sessões para manter o usuário autenticado.
+Login com usuário "admin" e senha `1234`ou login com usuario "Geraldo" e senha "abc".
+     
    
 2. Cadastro de Produtos:
      Cadastro de produtos com campos como código, nome, descrição, valor, quantidade e status.
@@ -52,11 +52,11 @@ Referências
 
 Base do projeto: Utilizei como base um CRUD feito em Python+Django que fiz recentemente, o projeto foi inspirado no seguinte tutorial
 https://www.youtube.com/watch?v=-vrXnewHrwA&list=PLbnAsJ6zlidvszSXnxplfYgtB6KQ-fZ-N
-segue o link de um video Demonstração do sistema funcionando
+segue o link de um video demonstração do sistema feito em python+django funcionando
 https://drive.google.com/file/d/1M0o1uw5RvqGPsFL8fHa9bqcVmjSRQ7ye/view?usp=sharing
 
 Também utilizei esta sequência de vídeos para o desenvolvimento do projeto em PHP
 https://www.youtube.com/watch?v=lP-XV2wXXQM&list=PLSHNk_yA5fNjoIRNHV-3FprsN3NWPcnnK
 
-Utilizei também inteligencia artificial para revisar o código, compreender e revisar funções e sugerir melhorias
+Utilizei também inteligencia artificial para revisar o código, revisar funções e sugerir melhorias
 
