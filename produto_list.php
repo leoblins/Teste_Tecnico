@@ -9,16 +9,16 @@ require_once 'db.php';
 
 $msg = $_GET['msg'] ?? '';
 
-// Filtros (extra)
+// Filtros ( pts extra)
 $nome = $_GET['nome'] ?? '';
 $status = $_GET['status'] ?? '';
 
-// Paginação (extra)
+// Paginação (pts extra)
 $por_pagina = 3; 
 $pagina = isset($_GET['pagina']) ? max(1, intval($_GET['pagina'])) : 1;
 $offset = ($pagina - 1) * $por_pagina;
 
-// Monta SQL com filtros e LIMIT/OFFSET
+// Monta SQL com filtros 
 $sql = "SELECT * FROM produtos WHERE 1=1";
 $params = [];
 $types = '';
@@ -47,7 +47,7 @@ if (!empty($params)) {
 $stmt->execute();
 $result = $stmt->get_result();
 
-// Conta o total de registros para calcular as páginas
+// Calcular as paginas 
 $count_sql = "SELECT COUNT(*) FROM produtos WHERE 1=1";
 $count_stmt = $conn->prepare($count_sql);
 $count_stmt->execute();

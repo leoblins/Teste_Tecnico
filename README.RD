@@ -28,7 +28,7 @@ Login com usuário "admin" e senha `1234`ou login com usuario "Geraldo" e senha 
 5. Listagem de Produtos:
      Exibe todos os produtos cadastrados em uma tabela.
      Permite filtros por nome e status.
-     Paginação para navegar entre os produtos.
+     Paginação para navegar entre os produtos, 3 por página, editavel no "produto_list.pqp" na linha 17
 
  Como Rodar o Projeto
 
@@ -46,7 +46,7 @@ O banco de dados utilizado é o MySQL. O arquivo `estrutura.sql` contém a cria�
 
 Veja o vídeo abaixo para ver o sistema em funcionamento:
 
-https://www.youtube.com/watch?v=MJJZ0W8IqeQ
+https://www.youtube.com/watch?v=wqs_rFxTQao
 
 Referências
 
