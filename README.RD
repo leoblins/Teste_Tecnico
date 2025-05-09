@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte de um teste técnico para estágio em D
  Funcionalidades
 
 1. Login de Usuário:
-Login com usuário "admin" e senha `1234`ou login com usuario "Geraldo" e senha "abc".
+Login com usuário "admin" e senha "1234"ou login com usuario "Geraldo" e senha "abc".
      
    
 2. Cadastro de Produtos:
@@ -33,14 +33,15 @@ Login com usuário "admin" e senha `1234`ou login com usuario "Geraldo" e senha 
  Como Rodar o Projeto
 
 1. Instale o XAMPP e inicie o Apache e MySQL.
-2. No phpMyAdmin, crie um banco de dados chamado `projeto_estagio`.
-3. Importe o arquivo `estrutura.sql` para criar as tabelas no banco de dados.
-4. Coloque os arquivos do projeto na pasta `C:\xampp\htdocs\projeto_estagio\`.
-5. Acesse o projeto no navegador em: `http://localhost/projeto_estagio/`.
+2. No phpMyAdmin, crie um banco de dados chamado "projeto_estagio".
+3. Importe o arquivo "estrutura.sql" para criar as tabelas no banco de dados.
+4. Na pasta C:\xampp\htdocs\  crie uma pasta chamada "projeto_estagio".
+5. Coloque os arquivos do projeto na pasta "C:\xampp\htdocs\projeto_estagio\".
+6. Acesse o projeto no navegador em: "http://localhost/projeto_estagio/".
 
 Banco de Dados
 
-O banco de dados utilizado é o MySQL. O arquivo `estrutura.sql` contém a criação do banco e das tabelas necessárias.
+O banco de dados utilizado é o MySQL. O arquivo "estrutura.sql" contém a criação do banco e das tabelas necessárias.
 
  Demonstração do Projeto
 
